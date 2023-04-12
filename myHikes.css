@@ -1,0 +1,70 @@
+/* Whole Page */
+body{
+    background-image: url(https://wallpaperaccess.com/full/11729.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wholeBody{
+    max-width: 1500px;
+    min-width: 1500px;
+    margin: 1rem;
+    /* padding: 1rem; */
+    margin: 2rem auto;
+    border-radius: 40px;
+    box-shadow: 6px 6px 6px 6px black;
+}
+
+/* Header */
+
+#mountains{
+    background-image: linear-gradient(
+    to top, transparent, rgba(0, 0, 0, 0.446)
+  ),url(https://cutewallpaper.org/21/5120x1080-wallpaper/288061307.jpg);
+    background-size: cover ;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+}
+#navBar{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    top: 70px;
+    
+    
+}
+#navBarlist{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin: 30px;
+    font-size: 25px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#phrase{
+    position: relative;
+    font-family: 'Julius Sans One';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 27px;
+    text-shadow: 1px 1px black;
+}
+#found{
+    position: relative;
+    left:200px;
+    top: 20px;
+}
+/* Bottom Half */
+
+
+
+
+
