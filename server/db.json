@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Mount Olympus",
+        "length": 7.8,
+        "rating": 5,
+        "description": "Get to know this 7.8-mile out-and-back trail near Cottonwood Heights, Utah. Generally considered a challenging route. This is a very popular area for hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. Dogs are welcome and may be off-leash in some areas.",
+        "imageURL": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTEyNTUxMTAvM2I3NzI3YzNhZGUxYjZlMjYxNDQ0ZTM2NTYzODg5MDIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+    },
+    {
+        "id": 2,
+        "name": "Bells Canyon",
+        "length": 4.6,
+        "rating": 4,
+        "description": "Try this 4.6-mile out-and-back trail near Sandy, Utah. Generally considered a moderately challenging route. This is a very popular area for hiking, snowshoeing, and running, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+        "imageURL": "https://www.roadtripryan.com/go/resources/content/utah/wasatch/bells-canyon/user-submitted/ryancornia-1466457445428.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dimple Dell West",
+        "length": 3.8,
+        "rating": 3,
+        "description": "Experience this 3.8-mile out-and-back trail near Sandy, Utah. Generally considered an easy route, it takes an average of 1 h 21 min to complete. This is a popular trail for hiking, horseback riding, and mountain biking, but you can still enjoy some solitude during quieter times of day. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+        "imageURL": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE2NzAzODEvNjU5YmUxNDJiNTMyZjI0OGIzNjA3NWU4YjcxOTA0MDkuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0="
+    },
+    {
+        "id": 4,
+        "name": "Lake Blanche",
+        "length": 6.8,
+        "rating": 5,
+        "description": "Head out on this 6.8-mile out-and-back trail near Mounthaven, Utah. Generally considered a challenging route, it takes an average of 4 h 55 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+        "imageURL": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDI5MDcvNTg1YzQ5MTg2YjQyZWJjZjZkYWFlYWQyYWU2ZjVlODEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0="
+    },
+]
