@@ -1,8 +1,6 @@
 /* Whole Page */
 body{
-    background-image: url(https://wallpaperaccess.com/full/11729.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #3f4d3e;
 }
 
 #wholeBody{

@@ -1,8 +1,6 @@
 /* Whole Page */
 body{
-    background-image: url(https://wallpaperaccess.com/full/11729.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #3f4d3e;
 }
 
 #wholeBody{
@@ -55,13 +53,13 @@ a{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    font-size: 27px;
+    font-size: 35px;
     text-shadow: 1px 1px black;
 }
 #found{
     position: relative;
-    left:200px;
-    top: 20px;
+    left:240px;
+    top: 100px;
 }
 
 /* Bottom Half */
