@@ -1,12 +1,24 @@
-document.querySelector('#bells').addEventListener('click', () =>{
-    window.location.href = "./myHikes.html";
+const hikesContainer = document.querySelector('#fav-container')
 
-})
-document.querySelector('#dimple').addEventListener('click', () =>{
-   
 
-})
-document.querySelector('#blanche').addEventListener('click', () =>{
-   
+const base1URL = `http://localhost:5500/api/hikes`
 
-})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,7 @@ body{
 }
 
 #wholeBody{
+    height: 1850px;
     max-width: 1500px;
     min-width: 1500px;
     margin: 1rem;
@@ -11,6 +12,11 @@ body{
     margin: 2rem auto;
     border-radius: 40px;
     box-shadow: 6px 6px 6px 6px black;
+    /* background-color: rgb(255, 255, 255); */
+    
+    background-image: url(https://i.natgeofe.com/n/a481381d-ff7b-4618-9bcf-dab26f9934bd/smoky2.jpg?w=1272&h=1272);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Header */
@@ -23,7 +29,8 @@ body{
     height: 400px;
     display: flex;
     justify-content: space-between;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 0px 0px;
+    
 }
 #navBar{
     display: flex;
@@ -43,8 +50,9 @@ body{
     
 }
 a{
-    color: black;
     text-decoration: none;
+    color: white;
+    text-shadow: black 1px 1px;
 }
 #phrase{
     position: relative;
@@ -54,15 +62,91 @@ a{
     align-items: flex-end;
     font-size: 35px;
     text-shadow: 1px 1px black;
+    
 }
 #found{
     position: relative;
     left:240px;
     top: 100px;
+    color: white;
+    
 }
-}
-/* Bottom Half */
 
+/* Bottom Half */
+#yourPathsSection{
+    background: linear-gradient(180deg, #6a8368d8 90%, rgba(217, 217, 217, 0) 100%);
+}
+#yourPaths{
+    display: flex;
+    /* justify-content: space-between; */
+    
+    }
+    #pathText{
+    font-family: 'Inter'; font-style: normal; font-weight: 800;
+    color: white;
+    text-shadow: black 5px 5px;
+    font-size: 60px;
+    margin-top: 30px;
+    position: relative;
+    left: 500px;
+    }
+    #backButton{
+        border-radius: 20px;
+        margin-left: 15px;
+        margin-top: 15px;
+        height: 80px;
+        width: 80px;
+    }
+    #backButton:hover{
+        box-shadow: 3px 3px;
+    }
+
+    /* inserted html */
+
+#hikes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hike-image {
+    height: 260px;
+    width:430px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hike-card {
+    background-color: white;
+    border-radius: 20px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px;
+  
+}
+#lowerCard{
+    display: flex;
+    justify-content: space-between;
+}
+.hike-name {
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Manrope'; font-style: normal; font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+h3{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: 'Manrope'; font-style: normal; font-weight: 400;
+}
+
+#unfav{
+    margin-right: 10px;
+    border-radius: 20px;
+}
 
 
 

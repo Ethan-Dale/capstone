@@ -1,8 +1,14 @@
 let hikes = require('./db.json')
 let globalId = 4
-
+console.log(hikes[1])
+let currentHikeId = 0
 module.exports = {
-    getHike: (req, res) =>{res.status(200).send(hikes)
+    getHikes: (req, res) =>{
+        res.status(200).send(hikes)
+    },
+    getRandomHike: (req, res) =>{
+       let index = Math.floor(Math.random() * hikes.length)
+        res.status(200).send(hikes[index])
     },
     deleteHike: (req, res) => {
         let index = hikes.findIndex(elem => elem.id === +req.params.id)
@@ -11,17 +17,20 @@ module.exports = {
     },
 
     addHike: (req, res) =>{
-        let {name, length, rating, description, imageURL} = req.body
+        let {name, hikelength, rating, description, imageURL} = req.body
         let newHikes = {
             id: globalId,
             name,
-            length,
+            hikelength,
             rating,
             description,
             imageURL
         }
         hikes.push(newHikes)
-        res.status(200).send()
         globalId++
+        res.status(200).send(hikes)
+    },
+    getOneHike: (req, res) =>{
+        res.status(200).send(hikes)
     }
 }

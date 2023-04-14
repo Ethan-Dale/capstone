@@ -132,7 +132,7 @@ flex-wrap: wrap;
     color: white;
     text-shadow: black 5px 5px;
 }
-#cards{
+#suggestions{
 width: 1500px;
 display: flex;
 justify-content: space-evenly;
@@ -149,7 +149,7 @@ align-items: center;
 .cardCss:hover{
     box-shadow: 4px 4px 4px ;
 }
-.cardImg{
+.hike-image{
     height: 260px;
     width:430px;
     border-radius: 20px 20px 0px 0px;
@@ -159,13 +159,13 @@ align-items: center;
     display: flex;
     justify-content: space-between;
 }
-.inform h1{
+#inform h1{
     margin-top: 8px;
     margin-left: 20px;
     font-size: 30px;
     font-family: 'Manrope'; font-style: normal; font-weight: 400;
 }
-.inform h3{
+#inform h3{
     margin-left: 20px;
     margin-top: 5px;
     font-family: 'Manrope'; font-style: normal; font-weight: 400;
