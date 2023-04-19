@@ -44,7 +44,8 @@ body{
     
 }
 a{
-    color: black;
+    color: white;
+    text-shadow: black 1px 1px;
     text-decoration: none;
 }
 #phrase{
@@ -60,6 +61,7 @@ a{
     position: relative;
     left:240px;
     top: 100px;
+    color: white;
 }
 
 /* Bottom Half */
