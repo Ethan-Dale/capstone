@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="adventures.css" rel="stylesheet">
+    <link href="./addYourJourney.css" rel="stylesheet">
     <title>Your Journey</title>
 </head>
 <body>
@@ -40,3 +40,103 @@
         </header>
 
         <!---------------------------- Lower Half ---------------------------->
+        <section id="wholeForm">
+            <div id="topBar">
+                <button id="backButton" onclick="backBtn()" >➾</button>
+                <h1>ADD YOUR HIKE</h1>
+                <div id="topSpacer"></div>
+            </div>
+            <form id="entry">
+                <div class="entry">
+                    <p>Name</p>
+                    <input
+                    class="inputBox"
+                    type="text"
+                    id="inputName"
+                    placeholder="Add trail name here"
+                    >
+                    <div class="bottomSpacer"></div>
+                </div>
+                <div class="entry">
+                    <p>Image URL</p>
+                    <input
+                    class="inputBox"
+                    type="text"
+                    id="inputImg"
+                    placeholder="Add image URL here"
+                    >
+                    <div class="bottomSpacer"></div>
+                </div>
+                <div class="entry">
+                    <p>Hike Length</p>
+                    <input
+                    class="inputBox"
+                    type="number"
+                    step=".1"
+                    id="hikelength"
+                    placeholder="Add the hike length in miles"
+                    >
+                    <div class="bottomSpacer"></div>
+                </div>
+                <div class="descriptionInput">
+                    <p>Description</p>
+                    <textarea
+                        id="inputDesc"
+                        placeholder="Write your description of the hike here. (360 character limit)"
+                        rows="4"  
+                        maxlength="360" 
+                    ></textarea>
+                </div>
+                <section id="hikeRating">
+                    <div id="ratingContainer">
+                        <label for="one">
+                            <input
+                                type="radio"
+                                name="ratings"
+                                value="1"
+                                id="one"/>
+                            1
+                        </label>
+                        <label for="two">
+                            <input
+                                type="radio"
+                                name="ratings"
+                                value="2"
+                                id="two"/>
+                            <h3>2</h3>
+                        </label>
+                        <label for="three">
+                            <input
+                                type="radio"
+                                name="ratings"
+                                value="3"
+                                id="three"/>
+                            3
+                        </label>
+                        <label for="four">
+                            <input
+                                type="radio"
+                                name="ratings"
+                                value="4"
+                                id="four"/>
+                            4
+                        </label>
+                        <label for="five">
+                            <input
+                                type="radio"
+                                name="ratings"
+                                value="5"
+                                id="five"/>
+                            5
+                        </label>
+                    </div>
+                    <p>Rating</p>
+                </section>
+                <button id="addHikeBtn">Add Hike</button>   
+            </form>
+            </div>
+        </section>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./addYourJourney.js"></script>
+    </section>
+</body>

@@ -8,13 +8,15 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const {getHikes, getRandomHike, deleteHike, addHike, getOneHike } = require('./controller')
+const {getHikes, getRandomHike, deleteHike, addHike, getOneHike, getOneHikeTwo, randomAdventure } = require('./controller')
 
 app.get('/api/hikes/', getHikes)
-app.get('/api/hikes', getRandomHike)
+app.get('/api/randomHike/:id', getRandomHike)
 app.delete('/api/hikes/:id', deleteHike)
 app.post('/api/hikes', addHike)
 app.get('/api/hikes/:id', getOneHike)
+app.get('/api/oneHike', getOneHikeTwo)
+app.get('/api/randomAdventure', randomAdventure)
 
 
 

@@ -5,7 +5,7 @@
         "hikelength": 7.8,
         "rating": 5,
         "description": "Get to know this 7.8-mile out-and-back trail near Cottonwood Heights, Utah. Generally considered a challenging route. This is a very popular area for hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. Dogs are welcome and may be off-leash in some areas.",
-        "imageURL": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTEyNTUxMTAvM2I3NzI3YzNhZGUxYjZlMjYxNDQ0ZTM2NTYzODg5MDIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+        "imageURL": "https://mountainproject.com/assets/photos/climb/118886268_medium_1589743078.jpg?cache=1617897415"
     },
 
     {
@@ -33,5 +33,143 @@
         "rating": 5,
         "description": "Head out on this 6.8-mile out-and-back trail near Mounthaven, Utah. Generally considered a challenging route, it takes an average of 4 h 55 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
         "imageURL": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjg1MDI5MDcvNTg1YzQ5MTg2YjQyZWJjZjZkYWFlYWQyYWU2ZjVlODEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0="
-    }
+    },
+    {
+        "id": 5,
+        "name": "Angel's Landing",
+        "hikelength": 4.8,
+        "rating": 5,
+        "description": "Angel's Landing is a 4.8 mile heavily trafficked out and back trail located near Springdale, Utah that features beautiful views and is rated as difficult. The trail is primarily used for hiking and is best used from March until November. Dogs are also able to use this trail but must be kept on leash.",
+        "imageURL": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/utahddm/150bd77861_cb4eb574-2fdf-4d93-ba1d-0c45d8d05796.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Delicate Arch",
+        "hikelength": 3.4,
+        "rating": 5,
+        "description": "Delicate Arch is a 3.4 mile heavily trafficked out and back trail located near Moab, Utah that features beautiful wild flowers and is rated as moderate. The trail is primarily used for hiking, walking, nature trips, and bird watching and is accessible year-round.",
+        "imageURL": "https://packedagain.com/wp-content/uploads/2021/02/feature_delicate-arch.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Zion Narrows",
+        "hikelength": 2.2,
+        "rating": 4,
+        "description": "Zion Narrows Riverside Walk is a 2.2 mile heavily trafficked out and back trail located near Springdale, Utah that features a river and is good for all skill levels. The trail is primarily used for hiking, walking, and nature trips and is best used from April until October.",
+        "imageURL": "https://bearfoottheory.com/wp-content/uploads/2019/02/Zion-Narrows-Best-Hikes-in-Utah.jpeg"
+      },
+      {
+        "id": 8,
+        "name": "Canyon Overlook",
+        "hikelength": 1,
+        "rating": 4,
+        "description": "Canyon Overlook Trail is a 1 mile heavily trafficked out and back trail located near Springdale, Utah that features a waterfall and is rated as moderate. The trail is primarily used for hiking and is accessible year-round.",
+        "imageURL": "https://www.citrusmilo.com/zion2015/joebraun_canyonoverlook01.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Timpanogos Cave",
+        "hikelength": 3.5,
+        "rating": 4,
+        "description": "Timpanogos Cave is a 3.5-mile out-and-back trail near American Fork, Utah. Generally considered a moderately challenging route. This is a popular area for hiking and cave tours, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. Dogs are not allowed on this trail.",
+        "imageURL": "https://i2.wp.com/utahhikingbeauty.com/wp-content/uploads/2021/09/IMG_1768-1.jpg?fit=2491%2C1868&ssl=1"
+    },
+    {
+        "id": 10,
+        "name": "Cecret Lake",
+        "hikelength": 1.7,
+        "rating": 4,
+        "description": "Cecret Lake is a 1.7-mile out-and-back trail near Alta, Utah. Generally considered an easy route. This is a very popular area for hiking and nature trips, so you'll likely encounter other people while exploring. The best times to visit this trail are June through September. Dogs are welcome, but must be on a leash.",
+        "imageURL": "https://res.cloudinary.com/simpleview/image/upload/v1666040908/clients/utahddm/CecretLake_31b02b77-27ae-4c5f-9db7-df8252f5d0c5.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Donut Falls",
+        "hikelength": 3.1,
+        "rating": 3,
+        "description": "Donut Falls is a 3.1-mile out-and-back trail near Salt Lake City, Utah. Generally considered an easy route. This is a popular area for hiking and birdwatching, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash.",
+        "imageURL": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/donut-falls-utah-usa-jeffery-hudson.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Stewart Falls",
+        "hikelength": 3.4,
+        "rating": 3,
+        "description": "Stewart Falls is a 3.4-mile out-and-back trail near Provo, Utah. Generally considered a moderately challenging route. This is a very popular area for hiking and nature trips, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. Dogs are welcome, but must be on a leash.",
+        "imageURL": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/utahvalley/StewartFalls20-6cab27e95056a36_6cab2925-5056-a36a-0b66b05b8644194a.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Fifth Water Hot Springs",
+        "hikelength": 4.3,
+        "rating": 4,
+        "description": "Fifth Water Hot Springs is a 4.3-mile out-and-back trail near Spanish Fork, Utah. Generally considered a moderately challenging route. This is a popular area for hiking and hot springs, so you'll likely encounter other people while exploring. The best times to visit this trail are March through November. Dogs are welcome, but must be on a leash.",
+        "imageURL": "https://bearfoottheory.com/wp-content/uploads/2017/04/95-DIAMOND-FORK-HOT-SPRINGS.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Coyote Gulch",
+      "hikelength": 11.5,
+      "rating": 5,
+      "description": "Coyote Gulch is an 11.5-mile loop trail near Escalante, Utah. Generally considered a moderately challenging route. This is a popular area for hiking and backpacking, so you'll likely encounter other people while exploring. The best times to visit this trail are April through November. Dogs are welcome, but must be on a leash.",
+      "imageURL": "https://bearfoottheory.com/wp-content/uploads/2016/09/Coyote-Gulch-Utah-2.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Kings Peak",
+    "hikelength": 28.8,
+    "rating": 5,
+    "description": "Kings Peak is a 28.8-mile out-and-back trail near Mountain View, Utah. Generally considered a challenging route. This is a popular area for hiking and backpacking, so you'll likely encounter other people while exploring. The best times to visit this trail are July through September. Dogs are welcome, but must be on a leash.",
+    "imageURL": "https://besthike.files.wordpress.com/2020/06/kings-peak-strathcona-3.jpeg"
+},
+{
+    "id": 16,
+    "name": "Lower Calf Creek Falls",
+    "hikelength": 5.8,
+    "rating": 4,
+    "description": "Lower Calf Creek Falls is a 5.8-mile out-and-back trail near Boulder, Utah. Generally considered a moderately challenging route. This is a popular area for hiking and nature trips, so you'll likely encounter other people while exploring. The best times to visit this trail are April through November. Dogs are welcome, but must be on a leash.",
+    "imageURL": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/93/13/bb/photo2jpg.jpg?w=1200&h=-1&s=1"
+},
+{
+    "id": 17,
+    "name": "Dead Horse Point",
+    "hikelength": 1.5,
+    "rating": 3,
+    "description": "Dead Horse Point Overlook is a 1.5-mile loop trail near Moab, Utah. Generally considered an easy route. This is a popular area for hiking and nature trips, so you'll likely encounter other people while exploring. The trail is accessible year-round. Dogs are welcome, but must be on a leash.",
+    "imageURL": "https://www.discovermoab.com/wp-content/uploads/2017/07/dead-horse-point-1920.jpg"
+},
+{
+    "id": 18,
+    "name": "Navajo Loop",
+    "hikelength": 2.9,
+    "rating": 5,
+    "description": "Navajo Loop and Queen's Garden Trail is a 2.9-mile loop trail near Bryce, Utah. Generally considered a moderately challenging route. This is a popular area for hiking and nature trips, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are not allowed on this trail.",
+    "imageURL": "https://www.nps.gov/common/uploads/cropped_image/primary/13C0691F-CD2C-C282-9E69B042034E69A3.jpg?width=1600&quality=90&mode=crop"
+},
+{
+  "id": 19,
+  "name": "Rattlesnake Gulch",
+  "hikelength": 2.4,
+  "rating": 4,
+  "description": "Rattlesnake Gulch Trail is a 2.4-mile out-and-back trail near Salt Lake City, Utah. Generally considered a moderately challenging route. This is a popular area for hiking and nature trips, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash.",
+  "imageURL": "https://d1ccsnv327xjht.cloudfront.net/photos/0/0/82/82/pxvqkXjd/1200.jpg?1536908091"
+},
+{
+  "id": 20,
+  "name": "Mount Timpanogos",
+  "hikelength": 14.3,
+  "rating": 5,
+  "description": "Mount Timpanogos is a 14.3-mile out-and-back trail near Pleasant Grove, Utah. Generally considered a challenging route. This is a popular area for hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are July through September. Dogs are welcome, but must be on a leash.",
+  "imageURL": "https://i1.wp.com/www.yourhikeguide.com/wp-content/uploads/Mount-Timpanogos.jpg"
+},
+{
+  "id": 21,
+  "name": "The Living Room",
+  "hikelength": 2.4,
+  "rating": 4,
+  "description": "The Living Room Trail is a 2.4-mile out-and-back trail near Salt Lake City, Utah. Generally considered a moderately challenging route. This is a popular area for hiking and nature trips, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash.",
+  "imageURL": "https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/336916875_122324240793264_2178113659988553190_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=0debeb&_nc_ohc=FyEyS637Y5EAX_0YKuW&_nc_ht=scontent.fslc3-1.fna&oh=00_AfAoCvWBIF4AqTKC4w8JPMAvpQBQC9QK9lwkF3mmIoMWkw&oe=64438EF9"
+}
+
+    
 ]

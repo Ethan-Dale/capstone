@@ -1,5 +1,6 @@
 const hikesContainer = document.querySelector('#hikes-container')
 
+const pageBack = document.querySelector('#backButton')
 const baseURL = `http://localhost:5500/api/hikes`
 
 const hikesCallback = ({ data: hikes}) => displayHikes(hikes)
@@ -13,15 +14,16 @@ function createHikeCard(hike) {
     const hikeCard = document.createElement('div')
     hikeCard.classList.add('hike-card')
 
-    hikeCard.innerHTML = `<img alt='hike image' src=${hike.imageURL} class="hike-image"/>
-    <div id="lowerCard">
-    <div id="info">
-    <h1 class="hike-name">${hike.name}</h1>
-    <h3 class="hike-length">${hike.hikelength} mi</h3>
-    <h3 class="hike-rating">${hike.rating} stars</h3>
-    </div>
-    <button id="unfav" onclick="deleteHike(${hike.id})">delete</button>
-    </div>
+    hikeCard.innerHTML = `
+        <img alt='hike image'  src="${hike.imageURL}" id="${hike.id}" class="hike-image"/>
+        <div id="lowerCard">
+            <div id="info">
+                <h1 class="hike-name">${hike.name}</h1>
+                <h3 class="hike-length">${hike.hikelength} mi</h3>
+                <div class="star-rating">${'<i class="fas fa-star"></i>'.repeat(hike.rating)}</div>
+            </div>
+            <button id="unfav" onclick="deleteHike(${hike.id})">delete</button>
+        </div>
     `
 
 
@@ -34,5 +36,24 @@ function displayHikes(arr) {
         createHikeCard(arr[i])
     }
 }
+const backBtn = () =>{
+    window.location.href = "adventures.html"
+}
+const getNewHike = (event) =>{
+    console.log(event.target.id)
+    axios.get(`${baseURL}/${event.target.id}`).then((res)=>{
 
+        window.location.href = `hike.html?id=${event.target.id}`
+        console.log(res.data)
+    }).catch((err)=>{
+        console.log(err)
+    })
+
+}
 getAllHikes()
+pageBack.addEventListener('click', backBtn)
+document.body.addEventListener('click', (event) => {
+    if (event.target.matches('.hike-image')) {
+        getNewHike(event);
+    }
+    });
