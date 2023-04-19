@@ -186,6 +186,8 @@ a{
     width: 600px;
     border-radius: 20px;
     margin-top: 15px;
+    font-family: 'Manrope'; font-style: normal; font-weight: 100;
+    font-size: 20px;
    
 }
 #inputDesc{
@@ -193,7 +195,8 @@ a{
     height: 600px;
     border-radius: 20px;
     text-align: center;
-    
+    font-family: 'Manrope'; font-style: normal; font-weight: 100;
+    font-size: 20px;
 
 }
 #addHikeBtn{

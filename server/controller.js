@@ -48,7 +48,7 @@ module.exports = {
             id: globalId
         }
         console.log(newHikes)
-        hikes.unshift(newHikes)
+        hikes.push(newHikes)
         globalId++
         res.status(200).send(hikes)
     },

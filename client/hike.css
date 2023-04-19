@@ -127,10 +127,12 @@ a{
 
 #info{
     color: white;
-    margin-bottom: 20px;
-    margin-left: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
     font-family: 'Manrope'; font-style: normal; font-weight: 100;
     text-shadow: black 3px 3px;
+    background: linear-gradient(180deg, #0000003c 90%, rgba(0, 0, 0, 0.797) 100%);
+    border-radius: 0px 0px 20px 20px;    
 }
 #name{
     font-size: 40px;
