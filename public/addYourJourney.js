@@ -2,7 +2,7 @@ const errCallback = err => console.log(err)
 
 const form = document.querySelector('form')
 
-const baseURL = `http://localhost:5500/api/hikes`
+const baseURL = `http://18.118.148.214:5500/api/hikes`
 
 const createHike = body => axios.post(baseURL, body).then(hikeAdded).catch(errCallback)
 

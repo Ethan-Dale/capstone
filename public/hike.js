@@ -4,7 +4,7 @@ const cardOne = document.querySelector('#suggestions')
 const anotherBtn = document.querySelector('#random')
 
 
-const baseURL = `http://localhost:5500/api/hikes`
+const baseURL = `http://18.118.148.214:5500/api/hikes`
 console.log(baseURL)
 
 const hikeCallback = ({ data: hikes }) => displayHike(hikes)
@@ -16,7 +16,7 @@ const getThreeHikes = () => axios.get(baseURL).then(hikesCallback).catch(errCall
 
 
 const getOneHike = (event) =>{
-    axios.get(`http://localhost:5500/api/oneHike`).then((res)=>{
+    axios.get(`http://18.118.148.214:5500/api/oneHike`).then((res)=>{
         console.log(res.data)
         createMainCard(res.data)
         createDescCard(res.data)
@@ -41,7 +41,7 @@ const getNewHike = (event) =>{
 }
 const getRandomHike = () => {
     let id = document.querySelector('#info')
-    axios.get(`http://localhost:5500/api/randomHike/${id.textContent}`).then((res)=>{
+    axios.get(`http://18.118.148.214:5500/api/randomHike/${id.textContent}`).then((res)=>{
       console.log(res.data)
       createMainCard(res.data)
       createDescCard(res.data)
@@ -77,7 +77,7 @@ function createMainCard(hike){
     mainContainer.appendChild(mainCard)
 }
 const backBtn = () =>{
-    window.location.href = "adventures.html"
+    window.location.href = "index.html"
 }
 
 function createDescCard(hike){

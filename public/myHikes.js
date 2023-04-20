@@ -1,7 +1,7 @@
 const hikesContainer = document.querySelector('#hikes-container')
 
 const pageBack = document.querySelector('#backButton')
-const baseURL = `http://localhost:5500/api/hikes`
+const baseURL = `http://18.118.148.214:5500/api/hikes`
 
 const hikesCallback = ({ data: hikes}) => displayHikes(hikes)
 const errCallback = err => console.log(err.response.data)
@@ -37,7 +37,7 @@ function displayHikes(arr) {
     }
 }
 const backBtn = () =>{
-    window.location.href = "adventures.html"
+    window.location.href = "index.html"
 }
 const getNewHike = (event) =>{
     console.log(event.target.id)

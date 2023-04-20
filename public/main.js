@@ -4,7 +4,7 @@ const cardOne = document.querySelector('#suggestions')
 
 
 
-const baseURL = `http://localhost:5500/api/hikes`
+const baseURL = `http://18.118.148.214:5500/api/hikes`
 console.log(baseURL)
 
 const hikeCallback = ({ data: hikes}) => displayHike(hikes)
@@ -26,7 +26,7 @@ const getOneHike = (event) =>{
 }
 
 const randomAdventure = () => {
-    axios.get(`http://localhost:5500/api/randomAdventure`).then((res) => {
+    axios.get(`http://18.118.148.214:5500/api/randomAdventure`).then((res) => {
         window.location.href = `hike.html?id=${res.data.id}`
     })
 }
