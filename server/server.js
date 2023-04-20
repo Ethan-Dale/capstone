@@ -6,7 +6,7 @@ const path = require('path');
 const app = express()
 
 
-app.use(express.static(`capstone/public`))
+app.use(express.static(`public`))
 app.use(express.json())
 app.use(cors())
 
@@ -21,7 +21,7 @@ app.get('/api/oneHike', getOneHikeTwo)
 app.get('/api/randomAdventure', randomAdventure)
 app.use(express.static(`${__dirname}/public`))
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'))
+  res.sendFile(path.join('public', 'index.html'))
 })
 
 
