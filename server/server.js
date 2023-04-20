@@ -1,8 +1,10 @@
 const express = require('express')
 const cors = require('cors')
+const path = require('path');
 
 
 const app = express()
+
 
 app.use(express.static(`${__dirname}/public`))
 app.use(express.json())
@@ -17,6 +19,10 @@ app.post('/api/hikes', addHike)
 app.get('/api/hikes/:id', getOneHike)
 app.get('/api/oneHike', getOneHikeTwo)
 app.get('/api/randomAdventure', randomAdventure)
+app.use(express.static(`${__dirname}/public`))
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'))
+})
 
 
 
