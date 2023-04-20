@@ -6,7 +6,7 @@ const path = require('path');
 const app = express()
 
 
-app.use(express.static(`${__dirname}/public`))
+app.use(express.static(`capstone/public`))
 app.use(express.json())
 app.use(cors())
 
