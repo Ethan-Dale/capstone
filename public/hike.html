@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,17 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="profile.css" rel="stylesheet">
-    <title>Profile</title>
+    <link href="hike.css" rel="stylesheet">
+    <title id="pageName"></title>
 </head>
 <body>
     <section id="wholeBody">
         <header id="mountains">
             <div id="phrase">
-                <h1 id="found" class="logo">Profile</h1>
+                <h1 id="found" class="logo"></h1>
                 <h1 class="logo"></h1>
             </div>
 
@@ -27,7 +29,7 @@
 
             <nav id="navBar">
                 <div id="navBarlist">
-                    <p class="nav1"><a href ="./adventures.html">Adventures</a></p>
+                    <p class="nav1"><a href ="./index.html">Adventures</a></p>
                     <p>|</p>
                     <p class="nav1"><a href ="./myHikes.html">My Hikes</a></p>
                     <p>|</p>
@@ -38,10 +40,25 @@
 
         <!---------------------------- Lower Half ---------------------------->
 
-        <main>
-            <h1 id="underWork">The Profile page is still under work!</h1>
-            <div id="bearyFunny"></div>
-        </main>
+        <section>
+            <section id="topCards">
+                <!-- injected -->
+                <div id="mainCard1"></div>
+                <div id="descCard"></div>
+                <!-- injected -->
+            </section>
+            <section id="anotherAdv">
+                <h1>Not the right one?</h1>
+                <button id="random">Another one!</button>
+                <h1>Or try these...</h1>
+            </section>
+            
+        </section>
+        <!-- injected -->
+        <div id="suggestions"></div>
+        <!-- injected -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./hike.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
     </section>
 </body>
-</html>
